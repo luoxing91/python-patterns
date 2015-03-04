@@ -52,11 +52,17 @@ class DogFactory:
     def get_pet(self):
         return Dog()
 
+    def get_food(self):
+        return "dog food"
+
 
 class CatFactory:
 
     def get_pet(self):
         return Cat()
+
+    def get_food(self):
+        return "cat food"
 
 # Create the proper family
 def get_factory():
@@ -80,7 +86,7 @@ if __name__ == "__main__":
 # It says woof
 # We also have dog food
 # ====================
-# We have a lovely Dog
-# It says woof
-# We also have dog food
+# We have a lovely Cat
+# It says meow
+# We also have cat food
 # ====================

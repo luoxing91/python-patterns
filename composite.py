@@ -233,6 +233,7 @@ class CompositeDict(SpecialDict):
         return self._father
 
     def __setChildDict(self, child):
+        
         """ Private method to set the dictionary of the child
         object 'child' in the internal dictionary """
 
